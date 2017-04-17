@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=720"/>
-    <title><?= the_title() ?></title>
+    <title><?php wp_title() ?></title>
     <link href="<?= get_stylesheet_uri() ?>" media="screen" rel="stylesheet" type="text/css"/>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/JohnResig" />
     <link rel="icon" href="/files/jeresig-2016.32.png" type="image/png"/>
