@@ -17,8 +17,6 @@
 		$oddcomment = 'alt';
 ?>
 
-<!-- You can start editing here. -->
-
 <?php if ($comments) : // 'open' == $post-> comment_status && ?>
 
 	<h4 id="comments">
@@ -39,7 +37,7 @@
 		<small><small>
 			(<?php comment_date('F j, Y') ?> 
 			at <a href="#comment-<?php comment_ID() ?>" title="<?php _e('Permanent link to this comment'); ?>"><?php comment_time() ?></a>)
-			<?php edit_comment_link(__("Edit"), ' &#183; ', "<a href='javascript:void(0);' onclick='javascript:var xhr=new XMLHttpRequest(); xhr.open(\"GET\", \"http://ejohn.org/wp-admin/post.php?action=deletecomment&noredir=true&p=" . $post->ID . "&comment=" . $comment->comment_ID . "\", false); xhr.send(null);'>Delete</a>"); ?>
+			<?php edit_comment_link(__("Edit"), ' &#183; ', "<a href='javascript:void(0);' onclick='javascript:var xhr=new XMLHttpRequest(); xhr.open(\"GET\", \"/wp-admin/post.php?action=deletecomment&noredir=true&p=" . $post->ID . "&comment=" . $comment->comment_ID . "\", false); xhr.send(null);'>Delete</a>"); ?>
 		</small></small>
 		</h3>
 		
@@ -55,13 +53,6 @@
 	<?php endforeach; /* end for each comment */ ?>
 
 	</ol>
-	
-	<!--<p class="small">
-	<?php comments_rss_link(__('<abbr title="Really Simple Syndication">RSS</abbr> feed for comments on this post')); ?>
-	<?php if ( pings_open() ) : ?>
-	&#183; <a href="<?php trackback_url() ?>" rel="trackback"><?php _e('TrackBack <abbr title="Uniform Resource Identifier">URI</abbr>'); ?></a>
-	<?php endif; ?>
-	</p>-->
 
 <?php else : // this is displayed if there are no comments so far ?>
 
@@ -131,7 +122,7 @@
 <br/><hr/>
 <p><b>Comments are closed.</b><br/>
 Comments are automatically turned off two weeks after the original post. If you have a question
-concerning the content of this post, please feel free to <a href="http://ejohn.org/about/">contact me</a>.</p>
+concerning the content of this post, please feel free to <a href="/about/">contact me</a>.</p>
 <hr/>
 
 <?php endif; // if you delete this the sky will fall on your head ?>

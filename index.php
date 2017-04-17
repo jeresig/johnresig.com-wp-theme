@@ -34,13 +34,6 @@ endif;
 				<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('Permanent link to'); ?> <?php the_title(); ?>" class="permalink"><?php comments_number('Comment', '1 Comment', '% Comments', 'number')?> on '<?php the_title(); ?>'</a>
 				
 				</p>
-				
-				<!--
-<?php comments_popup_link(__('Comment'), __('1 Comment '), __('% Comments '), 'commentslink', __('Comment')); ?>
-				<?php trackback_rdf(); ?>
-				-->
-			<img src="http://ejohn.org/apps/rss/?from=multi&id=<?php the_ID() ?>" style="width:0px;height:0px;"/>
-			<script src="http://feeds.feedburner.com/~s/JohnResig?i=<?php the_permalink() ?>" type="text/javascript" charset="utf-8"></script>
 </div>
 				
 		<?php endwhile; ?>

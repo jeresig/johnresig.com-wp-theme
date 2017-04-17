@@ -30,12 +30,6 @@ endif;
 <?php } ?>
                 <?php edit_post_link(__('Edit'), ' &#183; ', ''); ?>
                 </small></p>
-			
-				<!--
-<?php comments_popup_link(__('Comment'), __('1 Comment '), __('% Comments '), 'commentslink', __('Comment')); ?>
-				<?php trackback_rdf(); ?>
-				-->
-			<img src="http://ejohn.org/apps/rss/?from=multi&id=<?php the_ID() ?>" style="width:0px;height:0px;"/>
 </div><br/>
 				
 		<?php endwhile; ?>
