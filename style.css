@@ -455,6 +455,10 @@ h2 a {
 /*}*/
 
 @media screen and (max-width: 719px) {
+    #wrapper {
+        min-width: 0;
+    }
+
     #head .wrap {
         width: 100%;
     }
@@ -485,7 +489,11 @@ h2 a {
         width: 100%;
     }
 
-    #side #projects {
+    #body img {
+        max-width: 100%;
+    }
+
+    #side .box {
         width: 100%;
         margin: 10px auto;
     }
