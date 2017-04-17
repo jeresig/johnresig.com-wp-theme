@@ -6,7 +6,7 @@
 
 	<?php while (have_posts()) : the_post(); ?>
 
-	<h2><?= the_title() ?></h2><br/>
+	<h2><?= the_title() ?></h2>
 
 	<div class="postentry">
 		<?php
