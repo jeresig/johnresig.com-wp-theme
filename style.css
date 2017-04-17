@@ -141,6 +141,17 @@ a {
         margin-bottom: 15px;
 }
 
+pre {
+    overflow: auto;
+    background-color: #F0F0F0;
+    margin: 0 15px;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.1em;
+    font-family: Consolas, monospace;
+    border: 1px solid #DDD;
+}
+
 ol.projects, ol.posts {
     list-style: none;
     margin: 0;
@@ -444,16 +455,21 @@ h2 a {
 /*}*/
 
 @media screen and (max-width: 719px) {
-    #head ul {
-        font-size: 24px;
-    }
-
-    #head .side {
-        font-size: 18px;
+    #head .wrap {
+        width: 100%;
     }
 
     #head.other .side {
-        right: -65px;
+        right: 0;
+        width: 68px;
+    }
+
+    #head .side .text {
+        display: none;
+    }
+
+    #body {
+        width: 100%;
     }
 
     #body div.projects {
@@ -467,6 +483,11 @@ h2 a {
 
     #body .rest {
         width: 100%;
+    }
+
+    #side #projects {
+        width: 100%;
+        margin: 10px auto;
     }
 }
 
