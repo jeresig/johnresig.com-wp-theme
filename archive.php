@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
+	<h2><?php wp_title() ?></h2>
+
 	<?php if (have_posts()) : ?>
-	
+
 		<?php $post = $posts[0]; // Thanks Kubrick for this code ?>
 		
   	<?php while (have_posts()) : the_post(); ?>
