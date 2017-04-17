@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=720"/>
-    <title>John Resig - <?php wp_title(''); ?></title>
+    <title><?= the_title() ?></title>
     <link href="<?= get_stylesheet_uri() ?>" media="screen" rel="stylesheet" type="text/css"/>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/JohnResig" />
     <link rel="icon" href="/files/jeresig-2016.32.png" type="image/png"/>
@@ -17,7 +17,7 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/blog/">Blog</a></li>
                     <li><a href="/research/">Research</a></li>
-                    <li><a rel="author" href="/about/">About Me</a></li>
+                    <li><a rel="author" href="/about/">About</a></li>
                 </ul>
             </div>
             <div class="side">
@@ -33,4 +33,3 @@
     <div id="wrap">
         <div id="body">
             <div class="wrap">
-                <h2><?php wp_title(''); ?></h2><br/>
