@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<h2><?php wp_title() ?></h2>
+	<h2><?php wp_title('') ?></h2><br/>
 
 	<?php if (have_posts()) : ?>
 
