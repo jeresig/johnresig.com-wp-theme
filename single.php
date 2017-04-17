@@ -5,7 +5,9 @@
 	<?php $post = $posts[0]; ?>
 
 	<?php while (have_posts()) : the_post(); ?>
-	
+
+	<h2><?= the_title() ?></h2><br/>
+
 	<div class="postentry">
 		<?php
 			if ((is_category() || is_archive()) && is_category(4)) {
