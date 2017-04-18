@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title><?php bloginfo('name'); ?> - <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <link href="<?= get_stylesheet_uri() ?>" media="screen" rel="stylesheet" type="text/css"/>
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/JohnResig" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://feeds.feedburner.com/JohnResig" />
     <link rel="icon" href="/files/jeresig-2016.32.png" type="image/png"/>
 </head>
 <body>

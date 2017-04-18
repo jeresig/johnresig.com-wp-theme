@@ -4,16 +4,16 @@
         <div id="side">
             <div id="projects">
                 <div class="box">
-                    <a href="http://www.amazon.com/gp/product/193398869X/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=193398869X&linkCode=as2&tag=jspro-20"><img src="/files/jsninja.74.jpg" class="icon" alt="Secrets of the JavaScript Ninja" width="74" height="94"/></a>
+                    <a href="https://amzn.to/2oiS4em"><img src="/files/jsninja.74.jpg" class="icon" alt="Secrets of the JavaScript Ninja" width="74" height="94"/></a>
                     <div class="desc">
-                            <h3><a href="http://www.amazon.com/gp/product/193398869X/ref=as_li_ss_il?ie=UTF8&camp=1789&creative=390957&creativeASIN=193398869X&linkCode=as2&tag=jspro-20">Secrets of the JS Ninja</a></h3>
+                            <h3><a href="https://amzn.to/2oiS4em">Secrets of the JS Ninja</a></h3>
                             <p>Secret techniques of top JavaScript programmers. Published by Manning.</p>
                     </div>
                 </div>
                 <div class="box">
-                    <a href="http://ukiyo-e.org"><img src="/images/ukiyoe-76.png" class="icon" alt="Ukiyo-e Database and Search" width="74" height="74"/></a>
+                    <a href="https://ukiyo-e.org"><img src="/images/ukiyoe-76.png" class="icon" alt="Ukiyo-e Database and Search" width="74" height="74"/></a>
                     <div class="desc">
-						<h3><a href="http://ukiyo-e.org/">Ukiyo-e.org</a></h3>
+						<h3><a href="https://ukiyo-e.org/">Ukiyo-e.org</a></h3>
 						<p>Japanese woodblock print database and search engine.</p>
 					</div>
 				</div>
@@ -22,9 +22,9 @@
                     <h3><a href="/subscribe/">Subscribe for email updates</a></h3>
                 </div>
                 <div class="box">
-                    <a href="http://twitter.com/jeresig"><img src="/images/twitter-74.png" class="icon" alt="John Resig Twitter Updates" width="74" height="74"/></a>
+                    <a href="https://twitter.com/jeresig"><img src="/images/twitter-74.png" class="icon" alt="John Resig Twitter Updates" width="74" height="74"/></a>
                     <div class="desc">
-                            <h3><a href="http://twitter.com/jeresig">@jeresig</a></h3>
+                            <h3><a href="https://twitter.com/jeresig">@jeresig</a></h3>
                             <p>Infrequent, short, updates and links.</p>
                     </div>
                 </div>
