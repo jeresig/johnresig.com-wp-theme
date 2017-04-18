@@ -504,6 +504,12 @@ h2 a {
     }
 }
 
+@media screen and (max-width: 399px) {
+    #head.other .side {
+        display: none;
+    }
+}
+
 .incanvas a {
     text-decoration: underline;
 }
