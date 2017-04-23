@@ -12,4 +12,6 @@ add_theme_support( 'custom-logo', array(
 	'flex-width'  => false,
 ) );
 
+add_image_size( 'custom-logo-size', 48, 48 );
+
 ?>
