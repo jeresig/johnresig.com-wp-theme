@@ -13,14 +13,11 @@
 <div id="wrapper">
     <div id="head" class="other">
         <div class="wrap">
-            <div class="nav">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/research/">Research</a></li>
-                    <li><a rel="author" href="/about/">About</a></li>
-                </ul>
-            </div>
+            <?php wp_nav_menu(array(
+                'theme_location' => 'header-menu',
+                'container_class' => 'nav',
+                'depth' => 1
+            )); ?>
             <div class="side">
                 <a href="/about/"><img src="/files/jeresig-2016.48.jpg" class="logo" alt="John Resig" width="48" height="48"/></a>
                 <div class="text">
