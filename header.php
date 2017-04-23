@@ -27,8 +27,12 @@
                 ?>
                 <div class="text">
                     <span class="name"><?php bloginfo('name'); ?></span><br/>
-                    <a rel="author" href="/about/">Contact</a>,
-                    <a href="/subscribe/">Subscribe</a>
+                    <?php wp_nav_menu(array(
+                        'theme_location' => 'contact-menu',
+                        'container' => '',
+                        'menu_class' => 'contact-menu',
+                        'depth' => 1
+                    )); ?>
                 </div>
             </div>
         </div>

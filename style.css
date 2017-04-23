@@ -72,6 +72,13 @@ a {
     height: 48px;
 }
 
+#head .side .contact-menu,
+#head .side .contact-menu li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
 #head .side .text {
     margin-top: 2px;
 }
