@@ -6,7 +6,6 @@
     <title><?php bloginfo('name'); ?> - <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <link href="<?= get_stylesheet_uri() ?>" media="screen" rel="stylesheet" type="text/css"/>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://feeds.feedburner.com/JohnResig" />
-    <link rel="icon" href="/files/jeresig-2016.32.png" type="image/png"/>
     <?php wp_head(); ?>
 </head>
 <body>
@@ -19,9 +18,15 @@
                 'depth' => 1
             )); ?>
             <div class="side">
-                <a href="/about/"><img src="/files/jeresig-2016.48.jpg" class="logo" alt="John Resig" width="48" height="48"/></a>
+                <?php
+                if ( function_exists( 'the_custom_logo' ) ) {
+                    echo '<a href="/about/" class="logo">';
+                    the_custom_logo();
+                    echo '</a>';
+                }
+                ?>
                 <div class="text">
-                    <span class="name"><strong>John</strong> Resig</span><br/>
+                    <span class="name"><?php bloginfo('name'); ?></span><br/>
                     <a rel="author" href="/about/">Contact</a>,
                     <a href="/subscribe/">Subscribe</a>
                 </div>
