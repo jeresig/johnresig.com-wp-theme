@@ -6,7 +6,7 @@ function register_header_menu() {
 add_action( 'init', 'register_header_menu' );
 
 function register_contact_menu() {
-  register_nav_menu('contact-menu',__( 'Header Menu' ));
+  register_nav_menu('contact-menu',__( 'Contact Menu' ));
 }
 add_action( 'init', 'register_contact_menu' );
 
