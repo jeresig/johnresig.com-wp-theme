@@ -284,63 +284,8 @@ h2 a {
     color: #FFF;
 }
 
-#body .boxes {
-    overflow: auto;
-    clear: both;
-    padding-top: 10px;
-}
-
-#body .boxes .more {
-    clear: both;
-}
-
 #body h2 a {
     color: #000;
-}
-
-#body .box {
-    width: 29%;
-    position: relative;
-    padding: 8px 1%;
-    margin: 5px 1% 5px 0;
-    overflow: auto;
-    float: left;
-}
-
-#body .box.large {
-    width: 360px;
-    margin: 15px 0 0 0;
-}
-
-#body .box img {
-    float: left;
-    border: 0;
-}
-
-#body .box .desc {
-    margin: 0;
-}
-
-#body .box.large .desc {
-    margin: 0 0 0 82px;
-}
-
-#body .box h3 {
-    font-size: 18px;
-    font-weight: normal;
-    margin: 0 0 5px 0;
-    padding: 0;
-}
-
-#body .box h3 a {
-    color: #000;
-}
-
-#body .box .desc p {
-    line-height: 18px;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
 }
 
 #side .box {
