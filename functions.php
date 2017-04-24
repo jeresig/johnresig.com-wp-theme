@@ -10,6 +10,18 @@ function register_contact_menu() {
 }
 add_action( 'init', 'register_contact_menu' );
 
+function themename_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Primary Sidebar', 'theme_name' ),
+        'id'            => 'primary',
+        'before_widget' => '<div class="box">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
+    ) );
+}
+add_action( 'widgets_init', 'johnresig_widgets_init' );
+
 add_theme_support( 'custom-logo', array(
 	'height'      => 48,
 	'width'       => 48,
