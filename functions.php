@@ -10,7 +10,7 @@ function register_contact_menu() {
 }
 add_action( 'init', 'register_contact_menu' );
 
-function themename_widgets_init() {
+function johnresig_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'Primary Sidebar', 'theme_name' ),
         'id'            => 'primary',
