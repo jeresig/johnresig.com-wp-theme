@@ -42,12 +42,11 @@ a {
 }
 
 #head ul {
-    margin: 0;
+    margin: 0 88px 0 20px;
     padding: 0;
     list-style: none;
     position: absolute;
     bottom: 8px;
-    left: 20px;
 }
 
 #head ul li {
@@ -349,14 +348,14 @@ h2 a {
 }
 
 .header-caption a {
-        margin-right: 20px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
-        .header-img, .header-caption {
-                width: 100%;
-                margin-left: 0;
-        }
+    .header-img, .header-caption {
+            width: 100%;
+            margin-left: 0;
+    }
 }
 
 /*@media screen and (max-width: 1015px) {*/
@@ -454,12 +453,6 @@ h2 a {
     #side #projects {
         width: 100%;
         margin: 0;
-    }
-}
-
-@media screen and (max-width: 399px) {
-    #head.other .side {
-        display: none;
     }
 }
 
