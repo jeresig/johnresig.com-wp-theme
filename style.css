@@ -501,12 +501,15 @@ h2 a {
 code { white-space: pre; }
 code br { display: none; }
 
-#side .bsap{background: #446E95;padding:8px;margin:0;width:268px;}
-#side .one .bsa_it_ad{background:transparent;border:none;font-family:inherit;padding:0;margin:0;text-align:left;}
-#side .one .bsa_it_ad:hover img{-moz-box-shadow:0 0 3px #000;-webkit-box-shadow:0 0 3px #000;box-shadow:0 0 3px #000;}
-#side .one .bsa_it_ad .bsa_it_i{display:block;padding:0;float:none;margin:0 0 5px;}
-#side .one .bsa_it_ad .bsa_it_i img{padding:0;border:none;float:left;margin-right:10px;}
-#side .one .bsa_it_ad .bsa_it_t{color: #FFF; padding:0px;}
-#side .one .bsa_it_ad .bsa_it_d{color: #FFF;}
-#side .one .bsa_it_p{display:none;}
-#side #bsap_aplink,#side #bsap_aplink:hover{display:none;font-size:10px;margin:12px 15px 0;text-align:right;}
+#carbonads {
+    margin-top: -12px;
+}
+
+.carbon-img img {
+    margin-right: 8px;
+}
+
+.carbon-poweredby {
+    display: block;
+    margin-top: 1em;
+}
